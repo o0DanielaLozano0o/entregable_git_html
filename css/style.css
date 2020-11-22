@@ -1,0 +1,111 @@
+h1,h2{
+	padding: 1em;
+	text-align: center;
+}
+.separador{
+	height: 150px;
+	background: url(../img/pexels-sami-anas-5641977.jpg);
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color:white;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+	
+}
+.primertexto{
+	padding-bottom: 3em;
+}
+footer{
+	position: relative;
+    bottom: 0;
+	background: #2C2C2C;
+	width:100%;
+	height: 100px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.footer{
+	color:  white;
+
+	text-align: center;
+}
+.formulario, .tabla{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+/* style video*/
+.bodyVideo{
+	background: url(../img/Hozier_BG-Images-3-A.jpg) no-repeat top right,  rgba(10, 54, 55, 1);
+	color: white;
+}
+iframe{
+	border-radius: 0.5%;
+	width: 560px;
+	height: 315px;
+	margin-bottom: 3em;
+	margin-top: 3em;
+}
+
+.video{
+	text-align:  center;
+	padding: 10px;
+	
+}
+.videos1{
+	border-radius:round ;
+}
+.videoPadding{
+	padding-bottom: 3em;
+}
+.videos{
+
+	padding-top: 3em;
+	display: flex;
+	justify-content: space-around;
+	background: rgba(0,0,0,0.5);
+		
+}
+/*parte responsiva de las cards con los videos*/
+@media (max-width: 600px)  {
+iframe{
+	border-radius: 0.5%;
+	width: 400px;
+	height: 230px;
+	margin-bottom: 3em;
+	margin-top: 3em;
+} 
+	.cards{
+		flex-direction: column;
+		align-items: center;
+	}
+	.card{
+		max-width: 100%;
+		margin-bottom: 2em;
+	}
+	.videos{
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+}
+@media (max-width: 1000px)  { 
+	.cards{
+		flex-direction: column;
+		align-items: center;
+	}
+	.card{
+		max-width: 100%;
+	}
+	.videos{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+ 
